@@ -1,0 +1,13 @@
+{
+    "name": "ivaylo/php-compatiability",
+    "description": "Test compatiability for php ^7.4 and ^8.1",
+    "autoload": {
+        "psr-4": {
+            "Ivaylo\\PhpCompatiability\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.4|^8.0",
+        "aws/aws-sdk-php": "3.8"
+    }
+}
